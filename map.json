@@ -238,8 +238,34 @@
  "nextlayerid":42,
  "nextobjectid":2,
  "orientation":"orthogonal",
+ "properties":[
+        {
+         "name":"mapCopyright",
+         "type":"string",
+         "value":"You can download from your profile in Freepik a personalized license stating\nyour right to use this content as a \"premium\" user:\n\n  https:\/\/profile.freepik.com\/my_downloads\n\nYou are free to use this image:\n\n- For both personal and commercial projects and to modify it.\n- In a website or presentation template or application or as part of your design.\n\nYou are not allowed to:\n\n- Sub-license, resell or rent it.\n- Include it in any online or offline archive or database.\n\nThe full terms of the license are described in sections 7 and 8 of the Freepik\nterms of use, available online in the following link:\n\n  http:\/\/www.freepik.com\/terms_of_use\n\nThe terms described in the above link have precedence over the terms described\nin the present document. In case of disagreement, the Freepik Terms of Use\nwill prevail."
+        }, 
+        {
+         "name":"mapDescription",
+         "type":"string",
+         "value":"A perfect card for a conference and small group meeting. 1 amphitheater, 5 small meeting rooms, a cafeteria, a reception room\n\nSuitable from 20 to 50 people."
+        }, 
+        {
+         "name":"mapImage",
+         "type":"string",
+         "value":"meetup.png"
+        }, 
+        {
+         "name":"mapLink",
+         "type":"string",
+         "value":"https:\/\/github.com\/workadventure\/meetup-map"
+        }, 
+        {
+         "name":"mapName",
+         "type":"string",
+         "value":"Meetup"
+        }],
  "renderorder":"right-down",
- "tiledversion":"2021.03.23",
+ "tiledversion":"1.4.3",
  "tileheight":32,
  "tilesets":[
         {
@@ -1835,6 +1861,6 @@
         }],
  "tilewidth":32,
  "type":"map",
- "version":1.5,
+ "version":1.4,
  "width":46
 }
