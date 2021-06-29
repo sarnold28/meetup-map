@@ -5,3 +5,5 @@
 
 console.log('Script started successfully');
 WA.openCoWebSite('https://workadventu.re');
+
+export {}
