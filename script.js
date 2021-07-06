@@ -1,2 +1,2 @@
-(()=>{"use strict";console.log("Script started successfully"),WA.openCoWebSite("https://workadventu.re")})();
+(()=>{"use strict";let o;function e(){void 0!==o&&(o.close(),o=void 0)}console.log("Script started successfully"),WA.onEnterZone("firstPopup",(()=>{o=WA.openPopup("firstPopup","Congratulations, you found a hidden item in them map. Welcome to AIR:Leben",[{label:"Close",className:"primary",callback:o=>{o.close()}}])})),WA.onLeaveZone("firstPopup",(()=>{e()})),WA.onEnterZone("secondPopup",(()=>{o=WA.openPopup("secondPopup","Congratulations, you found a hidden item in them map.",[{label:"Close",className:"primary",callback:o=>{o.close()}}])})),WA.onLeaveZone("secondPopup",(()=>{e()}))})();
 //# sourceMappingURL=script.js.map
