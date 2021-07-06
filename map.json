@@ -329,6 +329,11 @@
          "name":"mapName",
          "type":"string",
          "value":"Meetup"
+        }, 
+        {
+         "name":"script",
+         "type":"string",
+         "value":"script.js"
         }],
  "renderorder":"right-down",
  "tiledversion":"1.5.0",
